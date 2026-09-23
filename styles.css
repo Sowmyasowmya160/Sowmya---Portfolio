@@ -3,13 +3,14 @@
 
 .hero-art {
   position: relative !important;
-  min-height: 430px !important;
+  min-height: 320px !important;
 }
 
 .hero-art .photo {
   position: absolute !important;
-  width: 320px !important;
-  height: 410px !important;
+
+  width: 220px !important;
+  height: 285px !important;
 
   left: 10px !important;
   top: 20px !important;
@@ -32,8 +33,8 @@
 .hero-art .terminal {
   position: absolute !important;
 
-  width: 190px !important;
-  max-width: 190px !important;
+  width: 155px !important;
+  max-width: 155px !important;
 
   right: 0 !important;
   bottom: 15px !important;
@@ -52,22 +53,22 @@
 
 @media (max-width: 650px) {
   .hero-art {
-    min-height: 440px !important;
+    min-height: 320px !important;
   }
 
   .hero-art .photo {
-    width: 320px !important;
-    height: 410px !important;
+    width: 220px !important;
+    height: 285px !important;
 
-    left: 5px !important;
-    top: 15px !important;
+    left: 10px !important;
+    top: 20px !important;
   }
 
   .hero-art .terminal {
-    width: 185px !important;
-    max-width: 185px !important;
+    width: 155px !important;
+    max-width: 155px !important;
 
     right: 0 !important;
-    bottom: 12px !important;
+    bottom: 15px !important;
   }
 }
