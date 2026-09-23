@@ -55,3 +55,17 @@
   width: min(420px, 100%) !important;
   flex-shrink: 0 !important;
 }
+/* Final hero positioning */
+
+.hero-art .photo {
+  transform: rotate(-3deg) !important;
+  z-index: 2 !important;
+}
+
+.hero-art .terminal {
+  width: 330px !important;
+  right: -20px !important;
+  bottom: 0 !important;
+  transform: rotate(2deg) !important;
+  z-index: 3 !important;
+}
