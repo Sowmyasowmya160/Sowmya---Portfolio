@@ -22,3 +22,36 @@
   object-position: center;
   display: block;
 }
+/* FINAL HERO FIX — photo and terminal separated */
+
+.hero-art {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 28px !important;
+}
+
+.hero-art .photo {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 280px !important;
+  height: 350px !important;
+  flex-shrink: 0 !important;
+}
+
+.hero-art .terminal {
+  position: relative !important;
+  z-index: 1 !important;
+
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+
+  transform: none !important;
+  margin: 0 !important;
+
+  width: min(420px, 100%) !important;
+  flex-shrink: 0 !important;
+}
