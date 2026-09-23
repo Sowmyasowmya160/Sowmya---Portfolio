@@ -3,24 +3,22 @@
 
 .hero-art {
   position: relative !important;
-  min-height: 520px !important;
+  min-height: 430px !important;
 }
 
 .hero-art .photo {
   position: absolute !important;
+  width: 320px !important;
+  height: 410px !important;
 
-  width: 260px !important;
-  height: 335px !important;
-
-  left: 35px !important;
-  top: 45px !important;
+  left: 10px !important;
+  top: 20px !important;
 
   right: auto !important;
   bottom: auto !important;
 
   z-index: 2 !important;
   transform: none !important;
-
   overflow: hidden !important;
 }
 
@@ -34,13 +32,13 @@
 .hero-art .terminal {
   position: absolute !important;
 
-  width: 225px !important;
-  max-width: 225px !important;
+  width: 190px !important;
+  max-width: 190px !important;
 
-  right: -10px !important;
+  right: 0 !important;
+  bottom: 15px !important;
+
   left: auto !important;
-
-  bottom: 20px !important;
   top: auto !important;
 
   margin: 0 !important;
@@ -50,27 +48,26 @@
 }
 
 
-/* PHONE */
+/* MOBILE */
 
 @media (max-width: 650px) {
-
   .hero-art {
-    min-height: 500px !important;
+    min-height: 440px !important;
   }
 
   .hero-art .photo {
-    width: 245px !important;
-    height: 320px !important;
+    width: 320px !important;
+    height: 410px !important;
 
-    left: 15px !important;
-    top: 35px !important;
+    left: 5px !important;
+    top: 15px !important;
   }
 
   .hero-art .terminal {
-    width: 215px !important;
-    max-width: 215px !important;
+    width: 185px !important;
+    max-width: 185px !important;
 
-    right: -5px !important;
-    bottom: 15px !important;
+    right: 0 !important;
+    bottom: 12px !important;
   }
 }
